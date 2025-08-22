@@ -1,0 +1,67 @@
+/* General body and headings */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+h1, h2 {
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Navbar customizations */
+.navbar-custom {
+  background-color: white !important;
+  color: black;
+}
+
+.navbar-custom .navbar-brand {
+  color: black !important;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.navbar-custom .nav-link {
+  color: black !important;
+  font-weight: normal;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.4rem;
+  white-space: nowrap;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-custom .nav-link.active {
+  font-weight: bold;
+  color: black !important;
+}
+
+/* Removed nav-link:hover */
+
+/* Navbar nav flex adjustments to start from right */
+.navbar-nav {
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.navbar-nav::-webkit-scrollbar {
+  height: 5px;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/* Fix navbar toggler icon color */
+.navbar-toggler {
+  border-color: black;
+}
+
